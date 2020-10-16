@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+
+    <link rel="stylesheet" type="text/css" href="css/estilo.css"> 
+</head>
+<body id="faleConoscoBack">
+    <header>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Página inicial</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="carrinho.html">Seus pedidos</a></li>
+                <li><a href="faleConosco.html">Fale conosco</a></li>
+                <li><a href="unidadesProximas.html">Unidades +próximas</a></li>
+            </ul>
+            <div id="title">Full Stack Eletrônicos</div>
+            </nav><br><br><br>
+    </header>
+
+    <main>
+            <center>
+                <form id="formSugestao"> 
+                    <h5 style="text-align: center;font-size: 15px;"><font face:"Arial">Deixe sua mensagem:</font></h5>
+                    <label for="tipo">Encaminhar para:</label>
+                    <input type="radio" id="financeiro" value="Financeiro" name="tipo">
+                    <label for="financeiro">Financeiro</label>
+                    <input type="radio" id="operacional" value="Operacional" name="tipo">
+                    <label for="financeiro">Operacional</label>
+                    <input type="radio" id="outros" value="Operacional" name="tipo">
+                    <label for="financeiro">Outros</label>
+                    <textarea style="width: 130mm; height: 80mm;"> Conta tudo:</textarea> <br>
+                    <input id= "btn-enviar" type="button" value="Enviar" onclick="enviado()">
+                </form>
+            </center>
+    </main>
+    <footer>
+        <hr>
+        <center style="background-color: rgb(220, 20, 60);"><br>
+            <font color="white" face="Arial">&copy;Taís Araújo - Recode Pro</font>
+            <br><br><br><br></center>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
